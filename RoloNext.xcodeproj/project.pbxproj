@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A562193921476A77000CE6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562193821476A77000CE6C8 /* AppDelegate.swift */; };
+		A562193B21476A77000CE6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562193A21476A77000CE6C8 /* ViewController.swift */; };
+		A562193E21476A77000CE6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562193C21476A77000CE6C8 /* Main.storyboard */; };
+		A562194021476A78000CE6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A562193F21476A78000CE6C8 /* Assets.xcassets */; };
+		A562194321476A78000CE6C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562194121476A78000CE6C8 /* LaunchScreen.storyboard */; };
+		A562194B21476AA5000CE6C8 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */; };
+		F57D8EACF9CCCEEC74897553 /* Pods_RoloNext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B3DE0601D4F267D4A97F6C /* Pods-RoloNext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoloNext.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext.debug.xcconfig"; sourceTree = "<group>"; };
+		A562193521476A77000CE6C8 /* RoloNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoloNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A562193821476A77000CE6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A562193A21476A77000CE6C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A562193D21476A77000CE6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A562193F21476A78000CE6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A562194221476A78000CE6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A562194421476A78000CE6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoloNext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2CF87A2F162FFBB68DCB3B /* Pods-RoloNext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoloNext.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A562193221476A77000CE6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57D8EACF9CCCEEC74897553 /* Pods_RoloNext.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0E2C36F3377D540DF2D9E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58B3DE0601D4F267D4A97F6C /* Pods-RoloNext.debug.xcconfig */,
+				FD2CF87A2F162FFBB68DCB3B /* Pods-RoloNext.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A562192C21476A77000CE6C8 = {
+			isa = PBXGroup;
+			children = (
+				A562193721476A77000CE6C8 /* RoloNext */,
+				A562193621476A77000CE6C8 /* Products */,
+				9A0E2C36F3377D540DF2D9E8 /* Pods */,
+				F8468BFDB4F53CC2F1719238 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A562193621476A77000CE6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A562193521476A77000CE6C8 /* RoloNext.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A562193721476A77000CE6C8 /* RoloNext */ = {
+			isa = PBXGroup;
+			children = (
+				A562193821476A77000CE6C8 /* AppDelegate.swift */,
+				A562193A21476A77000CE6C8 /* ViewController.swift */,
+				A562193C21476A77000CE6C8 /* Main.storyboard */,
+				A562193F21476A78000CE6C8 /* Assets.xcassets */,
+				A562194121476A78000CE6C8 /* LaunchScreen.storyboard */,
+				A562194421476A78000CE6C8 /* Info.plist */,
+				A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */,
+			);
+			path = RoloNext;
+			sourceTree = "<group>";
+		};
+		F8468BFDB4F53CC2F1719238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A562193421476A77000CE6C8 /* RoloNext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A562194721476A78000CE6C8 /* Build configuration list for PBXNativeTarget "RoloNext" */;
+			buildPhases = (
+				82DF85449D540A6591B6904E /* [CP] Check Pods Manifest.lock */,
+				A562193121476A77000CE6C8 /* Sources */,
+				A562193221476A77000CE6C8 /* Frameworks */,
+				A562193321476A77000CE6C8 /* Resources */,
+				DDC359B48A42C7525C538F12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoloNext;
+			productName = RoloNext;
+			productReference = A562193521476A77000CE6C8 /* RoloNext.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A562192D21476A77000CE6C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RoloNextTeam;
+				TargetAttributes = {
+					A562193421476A77000CE6C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A562193021476A77000CE6C8 /* Build configuration list for PBXProject "RoloNext" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A562192C21476A77000CE6C8;
+			productRefGroup = A562193621476A77000CE6C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A562193421476A77000CE6C8 /* RoloNext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A562193321476A77000CE6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A562194321476A78000CE6C8 /* LaunchScreen.storyboard in Resources */,
+				A562194021476A78000CE6C8 /* Assets.xcassets in Resources */,
+				A562193E21476A77000CE6C8 /* Main.storyboard in Resources */,
+				A562194B21476AA5000CE6C8 /* GoogleService-Info-3.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82DF85449D540A6591B6904E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoloNext-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC359B48A42C7525C538F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A562193121476A77000CE6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A562193B21476A77000CE6C8 /* ViewController.swift in Sources */,
+				A562193921476A77000CE6C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A562193C21476A77000CE6C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A562193D21476A77000CE6C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A562194121476A78000CE6C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A562194221476A78000CE6C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A562194521476A78000CE6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A562194621476A78000CE6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A562194821476A78000CE6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B3DE0601D4F267D4A97F6C /* Pods-RoloNext.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoloNext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RoloNext.RoloNext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A562194921476A78000CE6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2CF87A2F162FFBB68DCB3B /* Pods-RoloNext.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoloNext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RoloNext.RoloNext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A562193021476A77000CE6C8 /* Build configuration list for PBXProject "RoloNext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A562194521476A78000CE6C8 /* Debug */,
+				A562194621476A78000CE6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A562194721476A78000CE6C8 /* Build configuration list for PBXNativeTarget "RoloNext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A562194821476A78000CE6C8 /* Debug */,
+				A562194921476A78000CE6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A562192D21476A77000CE6C8 /* Project object */;
+}
