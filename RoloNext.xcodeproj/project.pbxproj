@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47255D2A214C93D2006D5606 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47255D29214C93D2006D5606 /* FirebaseCore.framework */; };
+		47255D2C214C9917006D5606 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47255D2B214C9917006D5606 /* GoogleService-Info.plist */; };
+		47255D2E214C9BFC006D5606 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47255D2D214C9BFC006D5606 /* LoginView.swift */; };
+		47255D30214C9D1F006D5606 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47255D2F214C9D1F006D5606 /* Extensions.swift */; };
 		A562193921476A77000CE6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562193821476A77000CE6C8 /* AppDelegate.swift */; };
-		A562193B21476A77000CE6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562193A21476A77000CE6C8 /* ViewController.swift */; };
-		A562193E21476A77000CE6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562193C21476A77000CE6C8 /* Main.storyboard */; };
+		A562193B21476A77000CE6C8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562193A21476A77000CE6C8 /* LoginController.swift */; };
 		A562194021476A78000CE6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A562193F21476A78000CE6C8 /* Assets.xcassets */; };
 		A562194321476A78000CE6C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562194121476A78000CE6C8 /* LaunchScreen.storyboard */; };
-		A562194B21476AA5000CE6C8 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */; };
 		F57D8EACF9CCCEEC74897553 /* Pods_RoloNext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47255D29214C93D2006D5606 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47255D2B214C9917006D5606 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47255D2D214C9BFC006D5606 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		47255D2F214C9D1F006D5606 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		58B3DE0601D4F267D4A97F6C /* Pods-RoloNext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoloNext.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext.debug.xcconfig"; sourceTree = "<group>"; };
 		A562193521476A77000CE6C8 /* RoloNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoloNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A562193821476A77000CE6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A562193A21476A77000CE6C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A562193D21476A77000CE6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A562193A21476A77000CE6C8 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A562193F21476A78000CE6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A562194221476A78000CE6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A562194421476A78000CE6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 		ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoloNext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2CF87A2F162FFBB68DCB3B /* Pods-RoloNext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoloNext.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoloNext/Pods-RoloNext.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47255D2A214C93D2006D5606 /* FirebaseCore.framework in Frameworks */,
 				F57D8EACF9CCCEEC74897553 /* Pods_RoloNext.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,13 +77,14 @@
 		A562193721476A77000CE6C8 /* RoloNext */ = {
 			isa = PBXGroup;
 			children = (
+				47255D2B214C9917006D5606 /* GoogleService-Info.plist */,
 				A562193821476A77000CE6C8 /* AppDelegate.swift */,
-				A562193A21476A77000CE6C8 /* ViewController.swift */,
-				A562193C21476A77000CE6C8 /* Main.storyboard */,
+				A562193A21476A77000CE6C8 /* LoginController.swift */,
 				A562193F21476A78000CE6C8 /* Assets.xcassets */,
 				A562194121476A78000CE6C8 /* LaunchScreen.storyboard */,
 				A562194421476A78000CE6C8 /* Info.plist */,
-				A562194A21476AA5000CE6C8 /* GoogleService-Info-3.plist */,
+				47255D2D214C9BFC006D5606 /* LoginView.swift */,
+				47255D2F214C9D1F006D5606 /* Extensions.swift */,
 			);
 			path = RoloNext;
 			sourceTree = "<group>";
@@ -86,6 +92,7 @@
 		F8468BFDB4F53CC2F1719238 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47255D29214C93D2006D5606 /* FirebaseCore.framework */,
 				ADFCD4CC083CC10E1D1A9C5F /* Pods_RoloNext.framework */,
 			);
 			name = Frameworks;
@@ -153,8 +160,7 @@
 			files = (
 				A562194321476A78000CE6C8 /* LaunchScreen.storyboard in Resources */,
 				A562194021476A78000CE6C8 /* Assets.xcassets in Resources */,
-				A562193E21476A77000CE6C8 /* Main.storyboard in Resources */,
-				A562194B21476AA5000CE6C8 /* GoogleService-Info-3.plist in Resources */,
+				47255D2C214C9917006D5606 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,22 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A562193B21476A77000CE6C8 /* ViewController.swift in Sources */,
+				47255D2E214C9BFC006D5606 /* LoginView.swift in Sources */,
+				A562193B21476A77000CE6C8 /* LoginController.swift in Sources */,
 				A562193921476A77000CE6C8 /* AppDelegate.swift in Sources */,
+				47255D30214C9D1F006D5606 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A562193C21476A77000CE6C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A562193D21476A77000CE6C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A562194121476A78000CE6C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
